@@ -29,5 +29,5 @@ while True:
     
     # if upper-lower = 0, it means the person has been lying somewhere
     # The correct number was already outputed by the computer
-    except:
+    except ValueError:
         print('Human is liar, I already guessed the correct number')
